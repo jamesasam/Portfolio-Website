@@ -57,7 +57,7 @@
 }
 
 .sliding-background {
-  background: url("/Users/jamessamuel/Documents/Portfolio Website/img/computer.jpg") repeat-x;
+  background: url("img/computer.jpg") repeat-x;
   height: 560px;
   width: 5076px;
   animation: slide 60s linear infinite;
