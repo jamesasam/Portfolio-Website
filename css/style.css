@@ -1,4 +1,9 @@
-
+body {
+font-size: 14px;
+color: #333;
+background-color: #fff
+letter-spacing: 1px;
+}
 .titleMessage {
   position: top;
   width: 100%;
@@ -31,9 +36,6 @@
 
 .portrait {
   float: left;
-  width:170px;
-  height:170px;
-  margin-right:15px;
 }
 .container {
   padding-right: 15px;
@@ -46,6 +48,11 @@
 .section .bio h4 {
   text-align: justify;
   color: red;
+  float: left;
+  width: 50%;
+  padding: 5px;
+  font-family: 'Crimson Text', serif;
+
 }
 
 .section .bio p {
@@ -53,11 +60,14 @@
   display:inline-block;
   width:100%;
   vertical-align:top;
-
+  float: right;
+  width: 50%;
+  padding: 5px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .sliding-background {
-  background: url("img/computer.jpg") repeat-x;
+  background: url("/Users/jamessamuel/Documents/Portfolio Website/img/computer.jpg") repeat-x;
   height: 560px;
   width: 5076px;
   animation: slide 60s linear infinite;
@@ -70,4 +80,19 @@
   100%{
     transform: translate3d(-1692px, 0, 0);
   }
+}
+
+.SkillsSection h2 {
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+}
+
+.SkillsSection p {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.SkillsSection {
+  background-color: #e1b12c;
+  color: white;
 }
