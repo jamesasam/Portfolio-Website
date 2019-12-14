@@ -6,3 +6,21 @@ var typed = new Typed(".typed", {
     startDelay: 1000,
     showCursor: false
 });
+var element = document.querySelector('.chart1');
+new EasyPieChart(element, {
+    easing: 'easeInOut',
+    barColor: 'white',
+    trackColor: false,
+    scaleColor: false,
+    lineWidth: 4,
+    size: 152
+});
+var element = document.querySelector('.chart2');
+new EasyPieChart(element, {
+      easing: 'easeInOut',
+      barColor: 'white',
+      trackColor: false,
+      scaleColor: false,
+      lineWidth: 4,
+      size: 152
+});

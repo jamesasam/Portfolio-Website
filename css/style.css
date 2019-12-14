@@ -44,8 +44,7 @@ letter-spacing: 1px;
   margin-left: auto;
   overflow: hidden;
 }
-
-.section .bio h4 {
+.bio h4 {
   text-align: justify;
   color: red;
   float: left;
@@ -55,7 +54,7 @@ letter-spacing: 1px;
 
 }
 
-.section .bio p {
+.bio p {
   text-align: right;
   display:inline-block;
   width:100%;
@@ -95,4 +94,8 @@ letter-spacing: 1px;
 .SkillsSection {
   background-color: #e1b12c;
   color: white;
+}
+
+.skill p {
+  text-align: left;
 }
