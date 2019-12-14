@@ -13,7 +13,7 @@ new EasyPieChart(element, {
     trackColor: false,
     scaleColor: false,
     lineWidth: 4,
-    size: 152
+    size: 152,
 });
 var element = document.querySelector('.chart2');
 new EasyPieChart(element, {
@@ -22,5 +22,5 @@ new EasyPieChart(element, {
       trackColor: false,
       scaleColor: false,
       lineWidth: 4,
-      size: 152
+      size: 152,
 });

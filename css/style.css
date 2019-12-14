@@ -97,5 +97,40 @@ letter-spacing: 1px;
 }
 
 .skill p {
-  text-align: left;
+  text-align: center;
+}
+
+.skill {
+  text-align: center;
+
+}
+
+.chart1 {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  margin-left: 25px;
+  text-align: center;
+  color: #000;
+  line-height: 152px;
+  font-size: 35px;
+}
+
+.chart2 {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  margin-left: 25px;
+  text-align: center;
+  color: #000;
+  line-height: 152px;
+  font-size: 35px;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
