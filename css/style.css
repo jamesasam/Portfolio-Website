@@ -3,6 +3,8 @@ font-size: 14px;
 color: #333;
 background-color: #fff
 letter-spacing: 1px;
+margin: 0px;
+padding: 0px;
 }
 .titleMessage {
   position: top;
@@ -38,8 +40,6 @@ letter-spacing: 1px;
   display: inline-block;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
