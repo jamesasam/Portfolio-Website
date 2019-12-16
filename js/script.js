@@ -24,3 +24,13 @@ new EasyPieChart(element, {
       lineWidth: 4,
       size: 152,
 });
+
+var element = document.querySelector('.chart3');
+new EasyPieChart(element, {
+      easing: 'easeInOut',
+      barColor: 'white',
+      trackColor: false,
+      scaleColor: false,
+      lineWidth: 4,
+      size: 152,
+});

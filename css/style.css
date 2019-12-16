@@ -35,7 +35,7 @@ letter-spacing: 1px;
 }
 
 .portrait {
-  float: left;
+  display: inline-block;
 }
 .container {
   padding-right: 15px;
@@ -52,6 +52,10 @@ letter-spacing: 1px;
   padding: 5px;
   font-family: 'Crimson Text', serif;
 
+}
+
+.bio {
+  display: inline-block;
 }
 
 .bio p {
@@ -102,7 +106,6 @@ letter-spacing: 1px;
 
 .skill {
   text-align: center;
-
 }
 
 .chart1 {
@@ -129,8 +132,67 @@ letter-spacing: 1px;
   font-size: 35px;
 }
 
+.chart3 {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  margin-left: 25px;
+  text-align: center;
+  color: #000;
+  line-height: 152px;
+  font-size: 35px;
+}
+
 .canvas {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.squareItem {
+  margin-top: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.squareInnerContainer {
+  position: relative;
+  padding: 25px;
+  text-align: center;
+  border: 2px solid #444;
+  border-top: 4px dotted blue;
+  width: 300px;
+}
+
+.squareInnerContainer:before {
+  right: 0px;
+}
+
+.squareInnerContainer:after {
+  left: 0px;
+}
+
+.squareContent h2 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #e74c3c;
+}
+
+.squareContent h3 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.squareIcon {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  width: 40%;
+  height: 40px;
+  font-size: 45px;
+  margin-left: -20%;
+  color: #444;
 }
