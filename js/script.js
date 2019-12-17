@@ -34,3 +34,10 @@ new EasyPieChart(element, {
       lineWidth: 4,
       size: 152,
 });
+
+import { CountUp } from 'js/countUp.min.js';
+
+window.onload = function() {
+  var countUp = new CountUp('target', 2000);
+  countUp.start();
+}
