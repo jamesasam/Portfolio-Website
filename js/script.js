@@ -34,3 +34,14 @@ new EasyPieChart(element, {
       lineWidth: 4,
       size: 152,
 });
+
+var elem = document.querySelector('.items');
+var iso = new Isotope( elem, {
+  filter: '*',
+  animationOptions: {
+    duration: 1500,
+    easing: 'linear',
+    queue: false
+
+  }
+});
