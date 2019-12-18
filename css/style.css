@@ -95,7 +95,8 @@ padding: 0px;
   font-family: 'Work Sans', sans-serif;
 }
 
-.SkillsSection {
+.SkillsSection,
+.contactSection {
   background-color: #e1b12c;
   color: white;
 }
@@ -195,4 +196,23 @@ padding: 0px;
   font-size: 45px;
   margin-left: -20%;
   color: #444;
+}
+
+.contactSection {
+  text-align: center;
+}
+
+.contactButton {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.contactButton:hover {
+  text-decoration: none;
+  color: #e74c3c;
+  background-color: #fff;
 }
