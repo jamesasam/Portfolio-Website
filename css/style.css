@@ -327,3 +327,38 @@ padding: 0px;
 .items {
   padding: 0px;
 }
+
+.copyrightSection {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 5px;
+}
+
+.copyrightSection p {
+  margin: 0;
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+background-color: #e74c3c;
+position: fixed;
+top: 0;
+width: 100%;
+padding: 20px 10px;
+z-index: 100;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
