@@ -70,7 +70,7 @@ Screenshots for mobile look poor because it is a continous sticking nav bar
 
 ## Reflection
 
-I used a traditional two-column and three-column grid for this website as I didn't want to complicate the grid thus making the website too cluttered. I used Javascript, HTML and CSS to build this portfolio website and used W3Schools to build up any knowledge I didn't previously have. The contact form uses 'Mail-to' and opens up the user's mail app and opens a message to my personal email.
+I used a traditional two-column and three-column grid for this website as I didn't want to complicate the grid thus making the website too cluttered. I used Javascript, HTML and CSS to build this portfolio website and used W3Schools to build up any knowledge I didn't previously have. The contact form uses 'Mail-to' and opens up the user's mail app and opens a message to my personal email. I chose a continuous page design as this is a key modern feature of any website nowadays and I made sure there was 6 separate pages all into continuous scrolling.
 
 I have decided to use Netlify to host my website as this will automatically build the website using Yarn and uses the pushed changes from GitHub. 
 
