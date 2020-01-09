@@ -17,3 +17,4 @@ npm install
 
 ### Visual Style Guide
 
+! [Visual Style Guide] (img/Guide.png)
